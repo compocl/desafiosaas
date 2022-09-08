@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio Saas</title>
+    <title>Desafio JavaScript 1</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="assets/img/ico.png">
@@ -16,21 +16,43 @@
 
 <body>
 
+    <main>
+
+        <article>
+
     <div class="container">
     <div class="row align-items-center vh-100">
         <div class="col-4 mx-auto">
             <div class="card shadow border">
-                <img class="card-img-top" src="assets/img/pixel.png" alt="Asuka puedo ser">
+                <img class="card-img-top" src="assets/img/notegamer.jpg" alt="NOTEBOOK GAMER">
                 <div class="card-body d-flex flex-column align-items-center">
-                    <p class="card-text">Un pixelado ejemplo de como modificar una Card de Bootstrap con Saas.</p>
-                    <a href="#" class="btn btn-light">Un boton </a>
+                    <P>NOTEBOOK GAMER INTEL</P>
+                    <p> <input type="number" id="cantidad" name="cantidad"></p>
+                    <p><input type="color" id="color" name="color"></p>
+                    <a href="#" class="btn btn-light" id="calculo" name="calculo">CALCULAR TOTAL</a>
+                    <p class="card-text">PRECIO : 400.000</p>
+                    
                 </div>
             </div>
         </div>
     </div>
 </div>
- 
+</article>
 
+<section>
+    <section>
+        <p>Total: <span id="total"></span></p>
+        <p>Cantidad: <span id="cantidad_final"></span></p>
+        <p>Color: <div id="color_final"></div>
+
+        </p>
+
+    </section>
+
+</section>
+
+</main>
+<script src="assets/js/main.js"></script>
 </body>
 
 </html>

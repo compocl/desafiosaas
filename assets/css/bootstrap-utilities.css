@@ -4,7 +4,7 @@
    * Copyright 2011-2022 Twitter, Inc.
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
-@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 .clearfix::after {
   display: block;
   clear: both;
@@ -54,6 +54,11 @@
 .text-bg-pinky {
   color: #000 !important;
   background-color: RGBA(238, 175, 237, var(--bs-bg-opacity, 1)) !important;
+}
+
+.text-bg-greeny {
+  color: #000 !important;
+  background-color: RGBA(208, 255, 183, var(--bs-bg-opacity, 1)) !important;
 }
 
 .link-primary {
@@ -126,6 +131,14 @@
 
 .link-pinky:hover, .link-pinky:focus {
   color: #f1bff1 !important;
+}
+
+.link-greeny {
+  color: #D0FFB7 !important;
+}
+
+.link-greeny:hover, .link-greeny:focus {
+  color: #d9ffc5 !important;
 }
 
 .ratio {
@@ -599,6 +612,11 @@
 .border-pinky {
   --bs-border-opacity: 1;
   border-color: rgba(var(--bs-pinky-rgb), var(--bs-border-opacity)) !important;
+}
+
+.border-greeny {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-greeny-rgb), var(--bs-border-opacity)) !important;
 }
 
 .border-white {
@@ -1468,6 +1486,11 @@
   color: rgba(var(--bs-pinky-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-greeny {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-greeny-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-black {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
@@ -1562,6 +1585,11 @@
 .bg-pinky {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-pinky-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-greeny {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-greeny-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
